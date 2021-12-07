@@ -1,8 +1,15 @@
-<button (click)="navigate()">Navigate</button>
-<form action="">
-   First name <input type="text" name="firstname"><br>
-   Last name <input type="text" name="lastname"><br><br>
-<button (click)="console()">Submit</button>
-
-
-</form>
+<div class="cont">
+    <div> <h1> Member Login Form </h1> </div> 
+<form>
+    <div class="container"> 
+        <label>Username : </label> 
+        <input type="text" placeholder="Enter Username" name="username" required>
+        <label>Password : </label> 
+        <input type="password" placeholder="Enter Password" name="password" required>
+        <button type="submit" (click)="navigate()">Login</button> 
+        <!-- <input type="checkbox" checked="checked"> Remember me 
+        <button type="button" class="cancelbtn"> Cancel</button> 
+        Forgot <a href="#"> password? </a>  -->
+    </div> 
+</form>   
+</div>
