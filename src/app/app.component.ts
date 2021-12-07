@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mouseflow';
+  console() {
+    console.log('new app')
+  }
 }
